@@ -26,6 +26,7 @@ set showcmd
 set nobackup
 set nowritebackup
 set showtabline=2
+set clipboard=unnamed,unnamedplus
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k

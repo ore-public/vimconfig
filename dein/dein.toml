@@ -82,3 +82,7 @@ hook_source = '''
 let g:vim_markdown_folding_disabled = 1
 '''
 
+[[plugins]]
+repo = 'phpactor/phpactor'
+on_ft = ['php']
+build = 'composer install'
